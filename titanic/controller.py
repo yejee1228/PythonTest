@@ -2,7 +2,7 @@ from titanic.service import Service
 
 class Controller:
     def __init__(self):
-        pass
+        self.service = Service()
 
     @staticmethod
     def print_menu():
@@ -14,6 +14,9 @@ class Controller:
         while 1:
             menu = self.print_menu()
             if menu =='1':
-                pass
+                self.service.load_data()
             elif menu == '0':
-                break
+                break;
+
+
+

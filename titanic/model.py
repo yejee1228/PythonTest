@@ -1,4 +1,3 @@
-import pandas as pd
 class Titanic:
     def __init__(self):
         self._context = None
@@ -37,8 +36,3 @@ class Titanic:
     @testID.setter
     def testID(self, testID): self.testID = testID
 
-    def new_file(self) -> object: return self._context + self._fname
-
-    def new_dframe(self) -> object:
-        file = self.new_file()
-        return pd.read_csv(file)
