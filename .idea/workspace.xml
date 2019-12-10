@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d3a9478b-b5d2-4f66-a28e-de2748d3e434" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/titanic/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/service.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

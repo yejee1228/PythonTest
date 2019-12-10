@@ -1,6 +1,15 @@
 from titanic.model import Titanic
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib import font_manager, rc
+import seaborn as sns
+
+
+rc('font', family =
+   font_manager
+   .FontProperties(fname='C:/Windows/Fonts/H2GTRM.ttf')
+   .get_name())
 """
 ['PassengerId' 고객ID,
 'Survived', 생존여부
@@ -97,10 +106,26 @@ class Service:
         print(tr['AgeGroup'].head())
         return [tr, te]
 
-        
+
 
     @staticmethod
     def fare_odianl(list) -> []:
         tr = list[0]
         te = list[1]
         return [tr, te]
+
+    @staticmethod
+    def showPlot(list):
+        tr = list[0]
+        f, ax = plt.subplots(1, 2, figsize=(18, 8))
+        tr['Survived'] \
+            .value_counts() \
+            .plot.pie(explode=[0, 0.1],
+                      autopct='%1.1f%%',
+                      ax=ax[0],
+                      shadow=True)
+        ax[0].set_title('Survived')
+        ax[0].set_ylabe('')
+        sns.countplot('Survived', data=tr, ax=ax[1])
+        plt.show()
+
