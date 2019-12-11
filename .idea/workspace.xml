@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a9478b-b5d2-4f66-a28e-de2748d3e434" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/titanic/view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/titanic/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/service.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,13 +31,14 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\basicA\my_crawling" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\basicA\titanic" />
       <recent name="C:\Users\User\PycharmProjects\basicA\titanic\data" />
       <recent name="C:\Users\User\PycharmProjects\basicA\text_mining\data" />
       <recent name="C:\Users\User\PycharmProjects\basicA\web_crawling\driver" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\PycharmProjects\basicA\my_crawling" />
     </key>
   </component>
   <component name="RunDashboard">

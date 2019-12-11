@@ -1,7 +1,10 @@
 from titanic.service import Service
+from titanic.view import View
+
 class Controller:
     def __init__(self):
         self.service = Service()
+        self.view = View()
         self._list = []
 
 
@@ -20,6 +23,7 @@ class Controller:
         print('1. 데이터로딩')
         print('2. 차원축소 ')
         print('3. Nominal 편집')
+        print('4. 생존자 시각화')
         return input('메뉴 입력\n')
 
 
@@ -35,5 +39,13 @@ class Controller:
                 self.list = self.service.drop_feature(self.list, feature)
             if menu == '3':
                 self.list = self.service.sex_nominal(self.list)
+            if menu == '4':
+                view = input('차트내용 선택\n'
+                             '1. 생존자 vs 사망자\n'
+                             '2. 생존자 성별 대비')
+                if view == '1' :
+                    self.list = self.view.showPlot(self.list)
+                elif view == '2':
+                    self.list = self.view.plot_sex(self.list)
             elif menu == '0':
                 break
