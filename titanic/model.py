@@ -4,7 +4,7 @@ class Titanic:
         self._fname = None
         self._train = None
         self._test = None
-        self._testID = None
+        self._testId = None
 
     @property
     def context(self) -> object: return self._context
@@ -19,7 +19,7 @@ class Titanic:
     def test(self)-> object: return self._test
 
     @property
-    def testID(self)-> object: return self._testID
+    def testId(self)-> object: return self._testId
 
     @context.setter
     def context(self, context): self._context = context
@@ -34,5 +34,5 @@ class Titanic:
     def test(self, test): self.test = test
 
     @testID.setter
-    def testID(self, testID): self.testID = testID
+    def testId(self, testId): self.testId = testId
 
