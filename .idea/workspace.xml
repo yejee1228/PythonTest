@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a9478b-b5d2-4f66-a28e-de2748d3e434" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kbstar/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kbstar/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kbstar/data/kbstar.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kbstar/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kbstar/service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/titanic/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/titanic/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/titanic/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/titanic/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/view.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/my_crawling" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -62,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.__init__ (1)">
+  <component name="RunManager" selected="Python.__init__">
     <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,9 +166,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__init__" />
         <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python.controller" />
-        <item itemvalue="Python.__init__" />
         <item itemvalue="Python.__init__ (5)" />
         <item itemvalue="Python.__init__ (3)" />
       </list>
