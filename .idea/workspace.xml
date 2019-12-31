@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a9478b-b5d2-4f66-a28e-de2748d3e434" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mnist/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnist/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnist/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf_calc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf_calc/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf_calc/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tf_calc/service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/view.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
