@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a9478b-b5d2-4f66-a28e-de2748d3e434" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mnist/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mnist/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mnist/service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf_calc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf_calc/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf_calc/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tf_calc/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kbstar/view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kbstar/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/kbstar/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kbstar/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/kbstar/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kbstar/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/kbstar/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kbstar/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/kbstar/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnist/service.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.__init__">
+  <component name="RunManager" selected="Python.__init__ (2)">
     <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__init__ (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="__init__ (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +89,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_crawling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mnist" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_crawling/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnist/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__init__ (2)" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python.controller" />
         <item itemvalue="Python.__init__ (5)" />
-        <item itemvalue="Python.__init__ (3)" />
       </list>
     </recent_temporary>
   </component>

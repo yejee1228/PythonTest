@@ -1,25 +1,23 @@
 from kbstar.service import Service
+from kbstar.model import Model
 class Controller:
+
     def __init__(self):
         self._service = Service()
+        self._model = Model()
 
-    def create_model(self, fname):
-        return self._service.new_model(fname)
-    """
-    class Controller :
-    def __init__(self):
-        self.model = Model()
+    def preprocess(self, train, test) -> object:
+        service = self._service
+        this = self._model
 
-    def print_menu(self):
-        print('0.종료')
-        print('1.액셀데이터보기')
-        return input('메뉴입력')
+    def modeling(self,train, test):
+        service = self._service
+        this = self.preprocess(train, test)
 
-    def run(self):
-        while 1:
-            menu = self.print_menu()
-            if menu=='1':
-                self.model.load_data()
-            elif menu == '0':
-                break
-    """
+    def learning(self, train, test):
+        service = self._service
+        this = self.modeling(train, test)
+
+    def submit(self, train, test):
+        service = self._service
+        this = self.modeling(train, test)
